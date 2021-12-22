@@ -1,0 +1,80 @@
+/*@todo needs cleanup */
+
+.amazon.not-avaliable.header-200,
+.amazon.not-avaliable.header-302,
+.amazon.not-avaliable.header-301,
+.amazon.not-avaliable.header-404 {
+    border: 3px solid red;
+    background-color: darkgrey;
+}
+
+.non-product-page {
+    background-color: #7abaff;
+    border: 3px solid #bd8412;
+}
+
+.error {
+    background-color: #570a0a !important;
+    color: white;
+}
+
+.header-301 {
+ background-color: aquamarine;
+}
+.header-302 {
+    background-color: red;
+}
+.header-200 {
+ background-color: green;
+}
+
+.header-200 a{
+    color: white;
+}
+
+.header-404 {
+    background-color: #570a0a;
+    color: white;
+}
+
+
+/*simple*/
+.simple-301 {
+    background-color: #3b804d;
+}
+.simple-302 {
+
+}
+.simple-200 {
+    background-color: green;
+}
+.simple-404 {
+    background-color: red;
+}
+/* internal server error*/
+.simple-500 {
+    background-color: red;
+}
+
+
+/*skipped*/
+.already.checked {
+    background-color: #cce5ff;
+}
+
+.already.checked.skipped-301 {
+    background-color: #cce5ff;
+}
+
+.already.checked.skipped-302 {
+    background-color: #cce5ff;
+}
+
+.already.checked.skipped-200 {
+ background-color: #cce5ff;
+}
+
+.already.checked.skipped-404 {
+    background-color: red;
+}
+
