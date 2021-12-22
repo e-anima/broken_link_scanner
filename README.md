@@ -15,13 +15,13 @@ In den Ordner navigieren cd /ordnername und dann "php linkchecker.php" (ohne Anf
 
 Das Script überspringt Links die es bereits getestet hat, Effizienz!
 
-##Farben##
+##Farben
 -"Toter Rand mit grauem Hintergrund" Produkt ist "nicht mehr verfügbar"
 -"Orangeer Rand" bedeutet, dass es keine produktseite ist! Es ist eine andere Amazon seite wie Suche/Listing etc.
 -"Roter Hintergrund" mit weißer Schrift. 404, ASIN weg. Seite ungültig.
 -Bonus: "Hellblauer Hinmtergrund" bedeutet, dass der Link vorher schon geprüft wurde und aus effizienzgrünen nicht erneut geprüft wird. Das Log kann danach per str+f durchsucht werden.
 
-##Weiteres##
+##Weiteres
 -Ein url_log.txt wird im root erzeut, welches die Seiten listet
 -Im Ordner /results gibt es ein grafisch aufbereitetets Logfile. Das wollen wohl die Meisten nutzen!
 -Lasst das Script niemals auf dem Webserver laufen wo eure Seiten sind! Es kann passieren das Amazon die IP des Servers bannt, weil es wie ein scraper wirkt.
@@ -36,14 +36,14 @@ You need to input the sitemap.xml as a list of urls to check. See config.php
 
 After that run the script on a shell/cli because there is no tiemout! If you run it via browser you will get a timeout, doesnt work!
 
-##Colors##
+##Colors
 -"Red border with gray background" means a product is not "avaliable no more"
 -"Orange border" means that it is not a Product page. It may be a listing/search/top list
 -"Red background" with white font means 404 error page
 -"Light blue background" means that this link was already checked before(efficiency). You may want to search
 the log page for that link so you see where it is used and replace if neccessary.
 
-##Misc##
+##Misc
 -A url_log is written to to root folder
 -Inside /results you find a html results.html with the scanner results.
 -Don´t abuse it and never run it on the webserver  your site is hosted on! As this can result of amazon banning the servers IP because of scraping attempts.
