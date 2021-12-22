@@ -6,9 +6,9 @@ Beispielsweise die Amazon Seite nach "Produkt ist nicht verfügbar". Vorraussetz
 
 Das Script funktioniert nicht nur mit Amazon sonder nauch für andere Anbieter! Ebay fehlt noch, brauch Beispiele für Seiten die "broken" sind. Dann inkludiere ich das.
 
-Konfiguration config.php
--Anbieter und Text angeben, Beispiele vorhanden. Für Amazon keine Änderungen nötig!
--Sitemap angeben die Seite listet. Zeile 16 config.php
+# Konfiguration config.php
+1. Anbieter und Text angeben, Beispiele vorhanden. Für Amazon keine Änderungen nötig!
+2. Sitemap angeben die Seite listet. Zeile 16 config.php
 
 Das Script muss auf einer shell/dos-box laufen gelassen werden.
 In den Ordner navigieren cd /ordnername und dann "php linkchecker.php" (ohne Anführunsgzeichen) eingeben. Unbedingt die shell/cli/dosbox nutzen, weil php da kein timeout hat.
@@ -32,7 +32,9 @@ All das kann man auch per PAAPI machen aber dieses Script funtioniert nicht nur 
 -------------------------------------------------------------------------------
 
 This script is for scanning a page for broken links or invalid affiliate links.
-You need to input the sitemap.xml as a list of urls to check. See config.php
+
+# Setup
+1. You need to input the sitemap.xml as a list of urls to check. See config.php
 
 After that run the script on a shell/cli because there is no tiemout! If you run it via browser you will get a timeout, doesnt work!
 
